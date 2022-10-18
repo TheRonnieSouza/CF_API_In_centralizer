@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer.csproj": {}
+    "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer.csproj": {
+    "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer.csproj",
+        "projectUniqueName": "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer.csproj",
         "projectName": "CF_API_In_centralizer",
-        "projectPath": "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer.csproj",
+        "projectPath": "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer.csproj",
         "packagesPath": "C:\\Users\\Ronnie\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\CF_API_In_centralizer\\obj\\",
+        "outputPath": "C:\\Projetos\\Github\\C#\\APIs\\CF_API_In_centralizer\\CF_API_In_centralizer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,6 +47,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
